@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'docker pull node:20.17-alpine' }
+        docker_agent1 { image 'docker pull node:20.17-alpine' }
     }
     stages {
         stage('checking') {
